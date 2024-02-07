@@ -1,11 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
-
 body{
     display: flex;
 }
-h1{
+/* h1{
     font-family: 'Comfortaa' , sans-serif;;
-}
+} */
 p{
     font-size: 18px; 
     font-weight: 550;
@@ -37,11 +36,15 @@ form{
 .upper , .middle , .lower {
     display: flex;
     gap: 50px;
+    margin-top: 10px;
 }
+
 .left{
     display: flex;
     flex-direction: column;
+  
 }
+
 button{
     margin: 5vh 4vh 1vh;
     font-size: 20px;
@@ -51,7 +54,43 @@ button{
     border-radius: 10px;
     border: none;
 }
-
+.logo{
+display: flex;
+flex-direction: column;
+width: 100vh;
+ background-color: black;
+justify-content: center;
+align-items:center;   
+}
+.naam{
+    color: #fff;
+font-family: 'Comfortaa' , sans-serif;
+font-size: 50px;
+}
+.footer{
+    height: 40vh;
+}
+input:hover{
+    border: solid green 2px;
+    border-radius: 2px;
+}
+input:active{
+    border: solid blue 2px;
+    outline: none;
+  
+ 
+    
+}
+input{
+    border-radius: solid white 2px;
+    padding: 5px;
+    width: 40vh;
+   
+}
+/* input:invalid {
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+} */
 
 
 
